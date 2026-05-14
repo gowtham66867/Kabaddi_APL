@@ -13,7 +13,98 @@ A gamification platform where AI isn't just a feature — it's the backbone. Eve
 
 ---
 
-## What It Does
+## How to Play
+
+### Step 1: Open the App
+
+Visit the live URL or run locally. You land on the **Dashboard** — your home base showing XP, level, streak, coins, and live match action.
+
+### Step 2: Make Predictions (Predict Tab)
+
+1. Go to **Predict** from the sidebar
+2. Pick an upcoming match
+3. Choose:
+   - **Who will win?** (required)
+   - **Score difference** (optional — bonus XP if correct within 3 points)
+   - **Top Raider** (optional — +75 XP if correct)
+   - **Top Defender** (optional — +75 XP if correct)
+4. Submit → earn **+25 XP** and **+10 coins** instantly
+5. Your prediction is now locked in and waiting for the match result
+
+### Step 3: Watch Live Matches (Dashboard)
+
+- Live matches simulate in **real-time** on the dashboard (score updates every 3 seconds)
+- Watch kabaddi events unfold: raids, tackles, all-outs, super raids
+- When the match ends, your predictions are **automatically scored**:
+  - ✅ Correct winner → **+50 XP**
+  - ✅ Score diff within 3 → **+100 XP**
+  - ✅ Correct top raider → **+75 XP**
+  - ✅ Correct top defender → **+75 XP**
+  - 🏆 Perfect prediction → **+300 XP total!**
+
+### Step 4: Build Your Streak
+
+- Predict **at least once per day** to maintain your streak
+- Streak bonus: each day adds a multiplier to your XP
+- Break your streak? The AI will send you a recovery nudge
+
+### Step 5: Complete Challenges (Challenges Tab)
+
+- Daily, weekly, and seasonal goals
+- Examples: "Predict 2 matches today", "Get 3 correct in a row", "Try all prediction fields"
+- AI generates **adaptive challenges** — harder if you're crushing it, easier if you're struggling
+- Each completed challenge awards **bonus XP**
+
+### Step 6: Earn Badges & Rewards (Rewards Tab)
+
+- 8 badges from Common to Legendary:
+  - **First Blood** — Make your first prediction
+  - **Streak Master** — Hit a 5-day streak
+  - **Prediction Guru** — 25 correct predictions
+  - **Oracle** — 50 correct predictions
+  - ...and more
+- Spend coins in the **Reward Shop** for cosmetic upgrades
+
+### Step 7: Climb the Leaderboard
+
+- Your XP determines your **global rank**
+- Tier progression: Bronze → Silver → Gold → Platinum → Diamond
+- Compete with other fans for top spots
+
+### Step 8: Chat with KabaddiGuru AI
+
+- Click the **floating chat button** (bottom-right)
+- Ask anything:
+  - "Who should I pick for tonight's match?"
+  - "What's my prediction accuracy?"
+  - "Explain do-or-die raids"
+  - "Give me a tip to improve"
+- The AI **remembers your conversations** across sessions
+
+### Step 9: Check AI Insights (AI Insights Tab)
+
+- See how the AI perceives you: engagement score, churn risk, behavior patterns
+- View personalized recommendations and click **"Apply"** to accept them (+15 XP each)
+- Generate AI-powered challenges on demand
+- Everything you do feeds back into the AI for smarter personalization next time
+
+### Quick Reference
+
+| Action | Reward |
+| --- | --- |
+| Submit a prediction | +25 XP, +10 coins |
+| Correct winner | +50 XP |
+| Score diff within 3 | +100 XP |
+| Correct top raider | +75 XP |
+| Correct top defender | +75 XP |
+| Daily streak bonus | +10 XP × streak days |
+| Complete challenge | +50–200 XP |
+| Apply AI recommendation | +15 XP |
+| Unlock badge | +25–100 XP |
+
+---
+
+## What It Does (Technical Summary)
 
 Users predict PKL match outcomes (winner, score diff, top raider, top defender) and earn XP, coins, badges, and streaks. The AI layer makes this genuinely adaptive:
 
